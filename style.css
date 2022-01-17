@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    /* background-color: black; */
+    background-image: url(./images/priscilla-du-preez-yeTKHuJY1Es-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+html, body {
+    min-height: auto;
+}
+
+header {
+    background-color: #ffffff;
+    max-width: 100%;
+    height: 120px;
+    padding-top: 0px;
+    display: block;
+}
+.haukai-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 100%;
+    height: 120px;
+  }
+  
+nav {
+    background-color: #316292ab;
+    max-width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+main {
+    /* background-color: rgb(135, 168, 171); */
+    max-width: 100%;
+    height: 1000px;
+    text-align: center;
+}
+main h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+}
+footer {
+    background-color: #316292ab;
+    width: 100%;
+    height: 100px;
+}
