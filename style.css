@@ -3,65 +3,228 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
-}
+} 
+
 body {
-    /* background-color: black; */
-    background-image: url(./images/priscilla-du-preez-yeTKHuJY1Es-unsplash.jpg);
+    font-family: 'Quicksand', sans-serif;
+    background-color: whitesmoke;
+}
+.body-index {
+    background-image: url(./images/stefan-johnson-xIFbDeGcy44-unsplash.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    max-width: 100%;
+    max-height: 1500px;
 }
-html, body {
-    min-height: auto;
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    color: #316292;
+    font-size: 6rem;
+    text-align: center;
+}
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: #316292;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-container {
+    background-color: #316292bb;
+    min-height: 100px;
+    margin-bottom: 0;
 }
 
 header {
-    background-color: #ffffff;
-    max-width: 100%;
-    height: 120px;
-    padding-top: 0px;
-    display: block;
+    max-width: 1024px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.haukai-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    max-width: 100%;
-    height: 120px;
-  }
-  
-nav {
-    background-color: #316292ab;
-    max-width: 100%;
-    height: 50px;
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    font-family: 'Quicksand', sans-serif;
-    padding-left: 40px;
-    padding-right: 40px;
-}
-main {
-    /* background-color: rgb(135, 168, 171); */
-    max-width: 100%;
-    height: 1000px;
-    text-align: center;
-}
-main h2 {
+
+.haukai-text {
     color: white;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
-    padding-top: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+}
+
+nav a {
+    font-size: 1rem;
+    color: #ffffff;
+    padding: 5px 15px;
+    border-style: solid;
+    border-width: 1PX;
+} 
+
+.container {
+    /* background-color: yellow; */
+    max-width: 1024px;
+    max-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.main-text h1{
+    color: white;
+}
+
+.main-text h2 {
+    color: white;
+}
+
+.main-text {
+    /* background-color: rgba(255, 255, 255, 0.582); */
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.container-main {
+    /* background-color: rgba(120, 100, 96, 0.726); */
+    max-width: 1024px;
+    max-height: 600px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-col {
+    background-color: rgba(255, 255, 255, 0.726);
+    width: 30%;
+    height: 230px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 15px 15px;
+    border-style: inset;
+    border-width: 2px;
+}
+
+.main-col h2{
+    font-size: 1.25rem;
+    border-color: black;
+    text-align: center;
+    line-height: 2.5rem;
+    font-weight: bold;
+}
+
+.main-col p {
+    font-size: 1rem;
+    border-color: black;
+    text-align: center;
+    line-height: 2rem;
 }
 footer {
-    background-color: #316292ab;
+    background-color: #316292cc;
     width: 100%;
-    height: 100px;
+    height: 80px;
+}
+.footer-text {
+    font-size: 1.15rem;
+    text-align: center;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+.mobile-nav {
+    display: none;
+}
+
+/* Reservations CSS Code */
+
+.container-reservations {
+    max-width: 1024px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.reservation-form {
+    height: 800px;
+}
+
+/* Contact CSS Code */
+.container-contact {
+    max-width: 1024px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.contact-map {
+    max-width: 1024px;
+    margin: 0 auto;
+    height: 600px;
+    margin-bottom: 40px;
+    justify-content: space-between;
+}
+/* Hours CSS Code */
+.container-calendar {
+    background-color: black;
+    max-width: 1024px;
+    height: 600px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+
+/* Tablet view */
+@media (max-width: 930px) {
+    .main-col {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .hide-mobile {
+        display: none;
+    }
+    nav {
+        display: none;
+    }
+    .burger-menu {
+        padding-right: 20px;
+    }
+    .mobile-nav {
+        display: block;
+    }
+    .mobile-dropdown {
+        display: none;
+        position: absolute;
+        padding-top: 5px;
+        font-family: 'Quicksand', sans-serif;
+    }
+    .mobile-button {
+        display: block;
+        background-color: rgb(120, 100, 96);
+        padding: 15px 30px;
+        margin-left: -120px;
+        text-align: center;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 640px) {
+    .col {
+        width: 100%;
+    }
+    .header-container {
+        position: relative;
+    }
 }

@@ -8,30 +8,80 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="css-reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="body-index">
+    <div class="header-container">
     <header>
-        <div class="haukai-logo">
-        <img src="./images/Haukai-Logo.png" alt="The Haukai Restaurant Logo" class="haukai-logo">
+        <!-- Logo -->
+        <img src="./images/The.png" alt="Haukai Logo" style="max-height: 100px; padding-left: 20px;">
+        <nav>
+            <a href="./index.html">HOME</a>
+            <a href="./reservations/reservations.html">RESERVATIONS</a>
+            <a href="./food/menu.html">MENU</a>
+            <a href="./about/hours.html">HOURS</a>
+            <a href="./contact/contact.html">CONTACT</a>
+        </nav>
+
+        <div class="mobile-nav">
+            <!-- Photo free from .... -->
+            <img src="./images/icons8-menu.svg" alt="Mobile menu drop down logo" class="burger-menu" style="width: 20px;">
+
+            <div class="mobile-dropdown">
+            <a href="./index.html" class="mobile-button">HOME</a>
+            <a href="./reservations/reservations.html" class="mobile-button">RESERVATIONS</a>
+            <a href="./food/menu.html" class="mobile-button">MENU</a>
+            <a href="./about/hours.html" class="mobile-button">HOURS</a>
+            <a href="./contact/contact.html" class="mobile-button">CONTACT</a>
+            </div>
+
         </div>
     </header>
+    </div>
 
-    <nav>
-        <a href="./index.html">HOME</a>
-        <a href="./reservations/reservations.html">RESERVATIONS</a>
-        <a href="./food/menu.html">MENU</a>
-        <a href="./about/about.html">ABOUT</a>
-        <a href="./contact/contact.html">CONTACT</a>
-    </nav>
+    <div class="container">
+            <div class="main-text">
+                <h1>HAUKAI</h1>
+                <h2>Dine | Explore | Culture </h2>
+            </div>
+    </div>
 
-    <main>
-        <img src="./images/Haukai-Logo.png" alt="The Haukai Restaurant Logo" class="haukai-logo">
-    </main>
+    <div class="container-main">
+        <div class="main-col">
+            <h2>LOCATION</h2>
+            <p>1 Island Street</p>
+            <p>Kerikeri</p>
+            <p>Bay of Islands</p>
+            <h2>CONTACT</h2>
+            <p>info@haukairestaurant.co.nz</p>
+            <p>09-401-4019</p>
+        </div>
+        <div class="main-col hide-mobile">
+            
+        </div>
+        <div class="main-col">
+            <h2>OPEN HOURS</h2>
+            <p>Monday/Tuesday - CLOSED</p>
+            <p>Wednesday - 5pm-10.30pm</p>
+            <p>Thursday - 5pm-10.30pm</p>
+            <p>Friday - 5pm-10.30pm</p>
+            <p>Saturday - 5pm-10.30pm</p>
+            <p>Sunday - 5pm-10.30pm</p>
+        </div>
+    </div>
+    
 
     <footer>
+        <div class="footer-text">
+        <p>Privacy Policy</p>
         <p>(C) The Haukai Restaurant 2022</p>
+    </div>
     </footer>
-    
+    </div>
+    <!-- Enabling JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
