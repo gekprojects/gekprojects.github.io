@@ -131,10 +131,10 @@ nav a {
 
 .reservation-button {
     font-size: 1.5rem;
-    color: rgb(160, 108, 48);
+    color: rgb(120, 100, 96);
     line-height: 10rem;
     border-style: solid;
-    border-color: rgb(160, 108, 48);
+    border-color: rgb(120, 100, 96);
     border-width: 2PX;
     padding: 10px 20px;
     margin-left: 60px;
@@ -175,25 +175,14 @@ footer {
 
 /* Contact CSS Code */
 
-.contact-map {
-    max-width: 1024px;
-    margin: 0 auto;
-    height: 600px;
-    margin-bottom: 40px;
-    justify-content: space-between;
-}
-
 .container-contact {
-    background-color: rgba(120, 100, 96, 0.692);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    max-width: 400px;
+    margin: 0 auto;
 }
 .contact-information {
-    margin: 20px 20px;
-    background-color: rgba(255, 255, 255, 0.692);
-    width: 30%;
-    height: 550px;
+    background-color: rgba(120, 100, 96, 0.233);
+    width: 100%;
+    height: 200px;
     text-align: center;
     line-height: 2rem;
 }
@@ -202,14 +191,11 @@ footer {
 }
 
 .container-map {
-    margin: 20px 20px;
-    width: 60%;
-    height: 550px;
-    background-color: rgba(255, 255, 255, 0.692);
-}
-
-.contact-map {
-
+    max-width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 /* Privacy CSS Code */
