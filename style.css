@@ -357,4 +357,8 @@ footer {
     .header-container {
         position: relative;
     }
+    .menu-items {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
