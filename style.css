@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
     text-decoration: none;
 } 
 
@@ -128,6 +128,18 @@ nav a {
     text-align: center;
     line-height: 2rem;
 }
+
+.reservation-button {
+    font-size: 1.5rem;
+    color: rgb(160, 108, 48);
+    line-height: 10rem;
+    border-style: solid;
+    border-color: rgb(160, 108, 48);
+    border-width: 2PX;
+    padding: 10px 20px;
+    margin-left: 60px;
+}
+
 footer {
     background-color: #316292cc;
     width: 100%;
@@ -139,34 +151,30 @@ footer {
     color: white;
     font-family: 'Quicksand', sans-serif;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
+    line-height: 1.5rem;
 }
 .mobile-nav {
     display: none;
 }
 
-/* Reservations CSS Code */
+/* Container/Title CSS Code */
 
-.container-reservations {
+.container-title {
     max-width: 1024px;
     height: 150px;
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+/* Reservations CSS Code */
 
 .reservation-form {
     height: 800px;
 }
 
 /* Contact CSS Code */
-.container-contact {
-    max-width: 1024px;
-    height: 150px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-}
+
 .contact-map {
     max-width: 1024px;
     margin: 0 auto;
@@ -174,6 +182,57 @@ footer {
     margin-bottom: 40px;
     justify-content: space-between;
 }
+
+.container-contact {
+    background-color: rgba(120, 100, 96, 0.692);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-information {
+    margin: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.692);
+    width: 30%;
+    height: 550px;
+    text-align: center;
+    line-height: 2rem;
+}
+.contact-information h2 {
+    font-size: 2rem;
+}
+
+.container-map {
+    margin: 20px 20px;
+    width: 60%;
+    height: 550px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
+
+.contact-map {
+
+}
+
+/* Privacy CSS Code */
+
+.container-privacy {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 60px;
+    height: 700px;
+}
+.privacy {
+    color: rgb(120, 100, 96);
+}
+
+.privacy h2 {
+    font-size: 3rem;
+}
+
+.privacy p {
+    font-size: 1rem;
+}
+
 /* Hours CSS Code */
 .container-calendar {
     background-color: black;
@@ -185,12 +244,98 @@ footer {
     justify-content: space-between;
 }
 
+/* Menu CSS Code */
+
+.container-menu-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.menu-images {
+    width: 300px;
+    margin: 10px;
+}
+.container-menu {
+    max-width: 1024px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container-menu h1 {
+    color: rgb(120, 100, 96);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.65rem;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.container-menu h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.container-menu p {
+    font-size: 1rem;
+}
+
+.price {
+    color: rgb(206, 68, 26);
+}
+
+.container-drinks {
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.drinks-menu {
+    width: 400px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.container-drinks h1 {
+    color: rgb(120, 100, 96);
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.65rem;
+    margin-bottom: 20px;
+    margin-top: 20px
+}
+
+.container-drinks h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+
+.container-drinks p {
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1.5rem;
+}
+
+
 
 /* Tablet view */
-@media (max-width: 930px) {
+@media (max-width: 1020px) {
     .main-col {
-        width: 100%;
-        margin-top: 0px;
+        width: 300px;
+        margin: 0 auto;
+        justify-content:space-evenly;
     }
     .hide-mobile {
         display: none;
