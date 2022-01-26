@@ -139,18 +139,18 @@ nav a {
     padding: 10px 20px;
     margin-left: 60px;
 }
-
+/* Footer CSS Styling */
 footer {
     background-color: #316292cc;
     width: 100%;
-    height: 80px;
+    height: 100px;
 }
 .footer-text {
     font-size: 1.15rem;
     text-align: center;
     color: white;
     font-family: 'Quicksand', sans-serif;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-bottom: 20px;
     line-height: 1.5rem;
 }
